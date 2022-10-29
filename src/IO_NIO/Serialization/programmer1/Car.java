@@ -1,4 +1,4 @@
-package IO_NIO.Serialization_1.programmer1;
+package IO_NIO.Serialization.programmer1;
 
 import java.io.Serializable;
 

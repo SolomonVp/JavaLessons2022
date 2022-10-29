@@ -1,21 +1,21 @@
-package IO_NIO.Serialization_1.programmer2;
+package IO_NIO.Serialization.programmer2;
+
+import IO_NIO.Serialization.programmer1.Employee;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.util.ArrayList;
-import java.util.List;
 
-public class SerializationEx1 {
+public class SerializationEx2 {
     public static void main(String[] args) {
+        Employee bestEmployee;
 
-        List<String> employees;
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("employees2.bin"))) {
 
-        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("employees1.bin"))) {
+            bestEmployee = (Employee) inputStream.readObject();
 
-            employees = (ArrayList)inputStream.readObject();
-            System.out.println(employees);
+            System.out.println(bestEmployee);
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
