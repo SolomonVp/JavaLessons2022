@@ -31,6 +31,23 @@ public class ChannelBufferEx1 {
             }
             System.out.println("\n" + stix);
 
+            String text = "\nThere are only two ways to live your life. " +
+                    "\nOne is as though nothing is a miracle. " +
+                    "\nThe other is as though everything is a miracle.";
+
+
+            // Первый способ дополнительной записи в файл
+
+//            ByteBuffer buffer2 = ByteBuffer.allocate(text.getBytes().length);
+//            buffer2.put(text.getBytes());
+//            buffer2.flip();
+//            channel.write(buffer2);
+
+            // Второй способ дополнительной записи в файл с помощью метода wrap
+
+            ByteBuffer buffer2 = ByteBuffer.wrap(text.getBytes());
+            channel.write(buffer2);
+
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
