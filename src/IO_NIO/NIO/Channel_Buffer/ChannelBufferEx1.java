@@ -1,4 +1,4 @@
-package IO_NIO.NIO.Channel_Buffer;
+package io_nio.NIO.Channel_Buffer;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

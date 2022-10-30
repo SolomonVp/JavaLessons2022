@@ -1,4 +1,4 @@
-package IO_NIO.RandomAccessFile;
+package io_nio.RandomAccessFile;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

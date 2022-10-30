@@ -1,4 +1,4 @@
-package IO_NIO.FileReader_FileWriter;
+package io_nio.FileReader_FileWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;

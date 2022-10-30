@@ -1,4 +1,4 @@
-package IO_NIO.Serialization.programmer2;
+package io_nio.Serialization.programmer2;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

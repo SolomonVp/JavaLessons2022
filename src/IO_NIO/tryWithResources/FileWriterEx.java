@@ -1,4 +1,4 @@
-package IO_NIO.tryWithResources;
+package io_nio.tryWithResources;
 
 import java.io.FileWriter;
 import java.io.IOException;

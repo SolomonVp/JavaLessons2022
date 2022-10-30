@@ -1,6 +1,6 @@
-package IO_NIO.Serialization.programmer2;
+package io_nio.Serialization.programmer2;
 
-import IO_NIO.Serialization.programmer1.Employee;
+import io_nio.Serialization.programmer1.Employee;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

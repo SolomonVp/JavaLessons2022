@@ -1,4 +1,4 @@
-package IO_NIO.BufferedReader_BufferedWriter;
+package io_nio.BufferedReader_BufferedWriter;
 
 import java.io.*;
 

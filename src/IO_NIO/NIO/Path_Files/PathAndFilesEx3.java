@@ -1,4 +1,4 @@
-package IO_NIO.NIO.Path_Files;
+package io_nio.NIO.Path_Files;
 
 import java.io.IOException;
 import java.nio.file.Files;

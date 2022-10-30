@@ -1,4 +1,4 @@
-package IO_NIO.FileInputStream_FileOutputStream;
+package io_nio.FileInputStream_FileOutputStream;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

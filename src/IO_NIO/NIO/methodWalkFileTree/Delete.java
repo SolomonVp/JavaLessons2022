@@ -1,4 +1,4 @@
-package IO_NIO.NIO.methodWalkFileTree;
+package io_nio.NIO.methodWalkFileTree;
 
 import java.io.IOException;
 import java.nio.file.*;

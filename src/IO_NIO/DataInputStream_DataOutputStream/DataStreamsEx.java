@@ -1,4 +1,4 @@
-package IO_NIO.DataInputStream_DataOutputStream;
+package io_nio.DataInputStream_DataOutputStream;
 
 import java.io.*;
 
